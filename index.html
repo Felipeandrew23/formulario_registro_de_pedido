@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Pedido<div</title>
+</head>
+<body>
+   <div class="principal">
+        <h1>Cadastro de Pedidos</h1>
+        <p>Complete o formulário</p>
+    </div>
+    <form>
+        <fieldset>
+            <div><label>Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div>
+                <label>Empresa</label>
+                <input type="text" name="nome da empresa" id="nome da empresa">
+            </div>
+        </fieldset>
+
+        <div>
+            <label >Email</label>
+            <input type="email" name="email">
+        </div>
+
+        <div>
+            <label>Qual tipo de personalização?</label>
+            <select id="tipo de personalizaçao">
+                <option>Silk Plano</option>
+                <option>Silk Cilindrico</option>
+                <option>Transfer DTF</option>
+                <option>Transfer Cilindrico</option>
+                <option>Transfer Vinilico</option>
+                <option>Digital UV</option>
+                <option>Banner</option>
+                <option>Adesivos e Etiquetas Resinadas</option>
+                <option>Laser CO2</option>
+                <option>Laser Metal</option>
+                <option>Sublimação</option>
+            </select>
+            <div><label for="prazoDeEntrega">Prazo de Entrega:</label>
+                <input type="date" id="prazoDeEntrega" name="prazoDeEntrega"><br></div>
+            <div>
+                <p>Informe a quantidade de peças a serem gravadas</p>
+
+<input id="id1" type="numero" required>
+<button onclick="myFunction()">OK</button>
+
+<p>Atenção certifique-se sempre de mandar peças a mais para testes</p>
+            </div>
+            
+        </div>
+    </form>
+    <div>
+        <h1>Selecione o seu vendedor</h1>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="vendedor1" name="vendedor1" value="felipe">
+  <label for="vendedor1"> Felipe</label><br>
+  <input type="checkbox" id="vendedor2" name="vendedor2" value="larissa">
+  <label for="vendedor2"> Larissa</label><br>
+  <input type="checkbox" id="vendedor3" name="vendedor3" value="icaro">
+  <label for="vendedor3"> Ícaro</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+    </div>
+</body>
+</html>

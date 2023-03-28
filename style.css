@@ -1,0 +1,23 @@
+fieldset {
+    background-color: #ab1ae4;
+  }
+  
+  legend {
+    background-color: rgb(217, 17, 217);
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  input {
+    margin: 15px;
+  }
+  body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(147,59,138,1) 100%, rgba(0,212,255,1) 100%);
+    color: aliceblue;
+    font-size: 22px;
+    width: 1200px;
+margin:0 auto;
+text-align: center;
+}
+
